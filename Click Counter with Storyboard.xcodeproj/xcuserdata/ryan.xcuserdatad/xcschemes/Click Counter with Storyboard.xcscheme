@@ -5,6 +5,22 @@
    <BuildAction
       parallelizeBuildables = "YES"
       buildImplicitDependencies = "YES">
+      <BuildActionEntries>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "942C5E3C1B2FE7E20054D0C6"
+               BuildableName = "Click Counter with Storyboard.app"
+               BlueprintName = "Click Counter with Storyboard"
+               ReferencedContainer = "container:Click Counter with Storyboard.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+      </BuildActionEntries>
    </BuildAction>
    <TestAction
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
@@ -12,7 +28,36 @@
       shouldUseLaunchSchemeArgsEnv = "YES"
       buildConfiguration = "Debug">
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "942C5E501B2FE7E20054D0C6"
+               BuildableName = "Click Counter with StoryboardTests.xctest"
+               BlueprintName = "Click Counter with StoryboardTests"
+               ReferencedContainer = "container:Click Counter with Storyboard.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "942C5E5B1B2FE7E20054D0C6"
+               BuildableName = "Click Counter with StoryboardUITests.xctest"
+               BlueprintName = "Click Counter with StoryboardUITests"
+               ReferencedContainer = "container:Click Counter with Storyboard.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "942C5E3C1B2FE7E20054D0C6"
+            BuildableName = "Click Counter with Storyboard.app"
+            BlueprintName = "Click Counter with Storyboard"
+            ReferencedContainer = "container:Click Counter with Storyboard.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
@@ -26,6 +71,16 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "942C5E3C1B2FE7E20054D0C6"
+            BuildableName = "Click Counter with Storyboard.app"
+            BlueprintName = "Click Counter with Storyboard"
+            ReferencedContainer = "container:Click Counter with Storyboard.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -35,6 +90,16 @@
       useCustomWorkingDirectory = "NO"
       buildConfiguration = "Release"
       debugDocumentVersioning = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "942C5E3C1B2FE7E20054D0C6"
+            BuildableName = "Click Counter with Storyboard.app"
+            BlueprintName = "Click Counter with Storyboard"
+            ReferencedContainer = "container:Click Counter with Storyboard.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">
